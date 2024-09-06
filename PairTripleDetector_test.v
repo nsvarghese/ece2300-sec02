@@ -71,8 +71,8 @@ module Top();
     $display( "\ntest_case_1_basic" );
     t.reset_sequence();
 
-    check( 0, 0, 0, 0 );
-    check( 0, 1, 1, 1 );
+    check( 0, 0, 0, 0 );   //the last column are the answers - check does the work for you!!!!
+    check( 0, 1, 1, 1 );   
     check( 0, 1, 0, 0 );
     check( 1, 1, 1, 1 );
 
@@ -82,7 +82,7 @@ module Top();
   // test_case_2_exhaustive
   //----------------------------------------------------------------------
 
-  task test_case_2_exhaustive();
+  task test_case_2_exhaustive();  //exhaustive testing is great!! it tests everything 100%, we can test all combinations!
     $display( "\ntest_case_2_exhaustive" );
     t.reset_sequence();
 

@@ -40,7 +40,7 @@ module Top();
 
     // Set input values for all input ports. Then wait 10 units of time.
     // Then we display all of the input and output values. We do this
-    // four times with four different sets of input values.
+    // four times with four different sets of input values. These next blocks are the simulation tables!!
 
     dut_in0 = 0;
     dut_in1 = 0;
